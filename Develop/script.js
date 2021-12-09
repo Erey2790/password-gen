@@ -5,6 +5,13 @@ function generatePassword() {
   console.log("Button has been clicked!!!")
 
 //prompt the user for the password
+var passwordLenght = prompt("Choose lenght of the password. Between 8 - 128");
+var passwordConfirm = confirm("Click OK to confirm special characters'lowercase, uppercase, numeric, and/or special characters'.");
+var lowercaseConfirm = confirm("click ok to include lowercase characters.");
+var uppercaseConfirm = confirm("click ok to include uppercase characters.");
+var numericConfirm = confirm("click ok to include numeric characters.");
+var specialCharacterConfirm = confirm("click ok to include special characters.");
+
 
 //password lenght 8-128
 

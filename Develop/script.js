@@ -66,7 +66,7 @@ function generatePassword() {
     PWResult[i] = mustUseOne[i]
   }
 
-  return PWResult.join("");
+  return generatePassword ();
 
   
 
